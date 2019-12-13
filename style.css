@@ -1,0 +1,83 @@
+body {
+    background: black;
+}
+
+/* Postcard */
+
+.postcard {
+    width: 600px;
+    height: 400px;
+    background: white;
+    margin: 30px auto;
+}
+
+.postcard .cabecera {
+    width: 100%;
+    height: 80px;
+}
+
+.postcard .cabecera h1{
+    float: left;
+    padding-left: 20px;
+}
+
+.postcard .cabecera img {
+    float: right;
+    height: 50px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.postcard .contenido-left {
+    float: left;
+    width: 300px;
+    height: 220px;
+}
+
+.postcard .contenido-left p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 0;
+   
+
+}
+
+.postcard .contenido-right {
+    float: right;
+    width: 300px;
+    height: 220px;
+    text-decoration-line: underline;
+    text-decoration-style: wavy; 
+    text-align: center;
+}
+
+.postcard .contenido-right input[type=text]{
+    border: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ccc;
+    text-decoration-style: wavy; 
+}
+
+.postcard .pie{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: radius 100%;
+}
+
+.postcard .pie button {
+    cursor: pointer;
+    border: 0;
+    width: 90px;
+    height: 90px;
+    background: #639;
+    color: white;
+    border-radius: 100%;
+}
+
+.postcard .pie button:hover {
+    
+    background: #449;
+}
